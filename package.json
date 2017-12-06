@@ -1,0 +1,18 @@
+{
+  "name": "percent",
+  "version": "1.0.0",
+  "description": "yuzde hesaplamak için küçük bir yardımcı",
+  "main": "./src/executables/percent.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+  	"percent": "./src/executables/percent.js"
+  },
+  "author": "nusu alabuğa <nusususuzu@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "commander": "^2.11.0"
+  }
+}
